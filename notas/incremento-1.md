@@ -56,7 +56,7 @@
 | `compose.yaml` | El plano de los contenedores: `laravel.test` (PHP + Node + el código) y `mysql` |
 | `docker/8.3/Dockerfile` | La receta de la imagen de PHP, con las versiones fijas |
 | `.env` | La configuración de este equipo (base de datos, contraseñas). No va a git |
-| `.gitignore` | Se quitó la línea que excluía `CLAUDE.md`, para versionarlo |
+| `.gitignore` | Viene de Laravel; excluye `.env`, `vendor/`, `node_modules/` y también `CLAUDE.md` (archivo de trabajo, no se versiona) |
 
 **Por qué así.**
 
